@@ -2,3 +2,21 @@
     font-size : 26px;
     text-align: center;
 }
+
+.backbutton{
+    box-shadow: 1px 1px 3px black;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: orange;
+    border-radius: 30px;
+    padding: 10px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+    transition: all 0.4s;
+}
+
+.backbutton:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
